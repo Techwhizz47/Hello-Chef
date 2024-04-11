@@ -160,7 +160,9 @@ body{
 
 .instr{
     width: 50%;
-    padding: 90px 40px 135px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: antiquewhite;
     color: rgb(77, 77, 77);
 }
@@ -704,7 +706,7 @@ body{
     .navbar2 i{
         font-size: 30px;
         padding-left: 25px;
-        margin-right: 100px;
+        margin-right: 70px;
     }
 
     #navitems2{
@@ -811,6 +813,7 @@ body{
 
     .page3{
         height: max-content;
+        width: 100%;
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
@@ -821,8 +824,9 @@ body{
     }
 
     .instr{
-        width: 70%;
-        height: max-content;
+        width: 100%;
+        height: 80vh;
+        margin: 0 auto ;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -838,7 +842,7 @@ body{
     }
 
     .instr button{
-        width: 100%;
+        width: 80%;
         height: 50px;
     }
 
@@ -858,6 +862,11 @@ body{
         width: 100%;
     }
 
+    .boxes img{
+        height: 230px;
+        width: 365px;
+    }
+
     .header4 br{
         display: none;
     }
@@ -867,8 +876,12 @@ body{
     }
 
     .body4{
-        width:70%;
-        /* overflow-x: hidden; */
+        width:90%;
+        
+    }
+
+    .boxes::-webkit-scrollbar{
+        width: 0;
     }
 
     .button4 button{
@@ -939,12 +952,13 @@ body{
     }
 
     .head h4{
-        margin-bottom: 0;
+        margin: 0;
         font-weight: 800;
         color: rgb(90, 89, 89);
     }
 
     .page6{
+        height: 100vh;
         background-image: none;
         background-color: #fff4ee;
     }
@@ -952,14 +966,25 @@ body{
     .box6{
         height: 50%;
         width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .add6{
-        margin-left: 20px;
+        margin: 0;
+    }
+
+    .sub{
+        width: 90%;
+    }
+
+    .sub6{
+        width: 100%;
     }
 
     .sub6 input{
-        width: 220px;
+        width: 100%;
     }
 
     .text6{
@@ -977,6 +1002,7 @@ body{
     .header7{
         height: 22%;
         border-bottom: 2px solid rgba(128, 128, 128, 0.322);
+        box-shadow: 0 -5px 5px -1px rgba(0, 0, 0, 0.123);
     }
 
     .logo7{
