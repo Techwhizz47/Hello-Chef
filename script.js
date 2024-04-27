@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Toggle navitems2 visibility
         navitems2.style.left = '0';
         overlay.style.display = 'block';
-        toggleButton.style.display = 'none'; // Hide toggle button
+        // toggleButton.style.display = 'none'; // Hide toggle button
     });
 
     overlay.addEventListener('click', function() {
@@ -18,3 +18,4 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleButton.style.display = 'block'; // Show toggle button
     });
 });
+
